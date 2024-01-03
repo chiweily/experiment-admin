@@ -1,0 +1,16 @@
+.content {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 30px;
+        height: calc(100% - 50px);
+        overflow: auto;
+}
+
+.title {
+    font-size: 22px;
+    margin-bottom: 20px;
+} 
+
+.btn {
+    float: right;
+}

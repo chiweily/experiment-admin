@@ -1,0 +1,34 @@
+/* 页面总体布局的css */
+
+.header {
+    background-color: rgb(19, 52, 103);
+    font-size: 20px;
+    color:rgb(254, 254, 254);
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    margin-left: -20px;
+}
+
+.logoname {
+    margin-left: 20px;
+}
+
+.dropmenu {
+    margin-left: auto;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.sectionInner {
+    /* 要减去顶部导航栏的高度 */
+    height: calc(100vh - 64px);
+}
+
+.sectionContent {
+    padding: 20px;
+}
